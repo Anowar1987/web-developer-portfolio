@@ -12,7 +12,9 @@
 .dark-2{
     color: #474747;
 }
-
+.text-center{
+    text-align: center;
+}
 .btn-primary {
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -117,4 +119,20 @@ nav ul li a {
  .about-items{
     display: flex;
     justify-content: space-around;
+ }
+
+ /* Skills style */
+ .skills{
+    margin-top: 120px;
+ }
+ .skills-container{
+    margin: 50px 230px;
+    display: flex;
+ }
+ .skill{
+    padding: 30px;
+    margin-right: 24px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
  }
