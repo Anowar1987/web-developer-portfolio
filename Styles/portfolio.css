@@ -205,3 +205,22 @@ nav ul li a {
 .resume-download-CV{
     margin-top: 50px;
 }
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 115px;
+}
+.footer-coloum{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    width: 100%;
+    background: white;
+    padding: 18px 30px;
+    color: #757575;
+    border-radius: 5px;
+    display: block;
+    border: none;
+    margin-bottom: 24px;
+}
